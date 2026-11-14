@@ -30,10 +30,10 @@ let personDetails : personTemplate = {
 
 console.log(personDetails.name + personDetails.address.street1);
 personDetails.age = 45
-personDetails.email = "fjhfk@gmail.com"
-console.log(personDetails.email);
-delete personDetails.email;
-console.log(personDetails.email);
+// personDetails.email = "fjhfk@gmail.com"
+// console.log(personDetails.email);
+// delete personDetails.email;
+// console.log(personDetails.email);
 
 console.log("email" in personDetails);
 console.log(Object.keys(personDetails));
