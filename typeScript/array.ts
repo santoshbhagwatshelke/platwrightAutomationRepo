@@ -15,8 +15,8 @@ numbers.shift();
 console.log(numbers);
 console.log(numbers.indexOf(55));
 console.log(numbers.slice(2,4));
-let result : (number | string)[] = numbers.concat(fruits)
-console.log(result);
+//let result : (number | string)[] = numbers.concat(fruits)
+//console.log(result);
 
 numbers.forEach((value)=>{
     console.log(value);
